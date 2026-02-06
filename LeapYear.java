@@ -7,7 +7,7 @@ public class LeapYear {
         System.out.print("Enter a year: ");
         int year = scanner.nextInt();
 
-        boolean isLeapYear = false;  // checking if it is leap year or not
+        boolean isLeapYear = false;  // checking if it is a leap year or not
 
         if (year % 4 == 0) {
             if (year % 100 == 0) {   // if year is divisible by 100
